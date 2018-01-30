@@ -1,0 +1,24 @@
+/* select all */
+* {
+  border: 1px solid lightgrey;
+}
+
+/* Descendant Selectors */
+li a {
+  color: red;
+}
+
+/* adjacent slectors */
+h4 + ul {
+  border: 4px solid red;
+}
+
+/* attribute selector */
+a[href="http://www.google.com"] {
+  background: blue;
+}
+
+/* nth type slelector */
+li:nth-of-type(3) {
+  background: purple;
+}
