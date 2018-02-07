@@ -5,8 +5,8 @@ function isEven(x) {
 }
 
 function factorial(n) {
-  var result = n;
-  for (var i = n-1; i>=1; i--) {
+  var result = 1;
+  for (var i = 2; i<=n; i++) {
     result *= i;
   }
   return result;
